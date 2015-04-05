@@ -9,12 +9,12 @@ An **algorithm** is a series of computational steps that transform an input into
 A **data structure** is a way to store and organize data to make access and modifications to that data possible and easier.
 
 
-###Data Structures - PART I - Associate Arrays
+###Data Structures I - Associative Arrays
 
-**Associate arrays** are fundamental data structures. You can think of them as ```key -> value``` pairs. In JavaScript, we also have objects that also hold a key and a value pair. So, basically objects are associate arrays.
+**Associative arrays** are fundamental data structures. You can think of them as ```key -> value``` pairs.
 
 ####Associate Arrays vs Arrays:
-  - Associate arrays use strings instead of integers as index values.
+  - Associative arrays use strings instead of integers as index values.
 
   ```javascript
   var regularArray = new Array(); //var regularArray = [];
@@ -28,7 +28,7 @@ A **data structure** is a way to store and organize data to make access and modi
   associativeArray["visitedCity"] = "New York";
   associativeArray["homeCity"] = "Istanbul";
   ```
-  - Associate arrays do not have the ```.length``` value unlike arrays.
+  - Associative arrays do not have the ```.length``` value unlike arrays.
 
   ```javascript
   regularArray.length; // result -> 3
@@ -42,11 +42,8 @@ A **data structure** is a way to store and organize data to make access and modi
   associativeArray[0]; // result -> undefined
   ```
 
-  ####Associate Arrays vs Objects:
-  - Associate arrays are treated as objects in JS.
+  ####Associative Arrays vs Objects:
 
+  In JavaScript, we also have objects that can also hold key and value pairs. So, basically objects are associate arrays.
 
-
-
-
-  
+  - Associative arrays are treated as objects in JS.
