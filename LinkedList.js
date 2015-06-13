@@ -24,7 +24,6 @@ function LinkedList() {
   };
 
   this.removeAt = function(position) {
-
     if(position >= 0 && position < length) {
       var index = 0;
       var current = head;
